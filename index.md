@@ -9,31 +9,43 @@ description: "Senior Data Scientist with 6+ years in financial services. Special
      ============================================================ -->
 <section class="hero">
   <div class="container">
+    <div class="hero__inner">
 
-    <p class="hero__meta">
-      {{ site.data.profile.location }}
-      &nbsp;·&nbsp;
-      <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
-    </p>
+      <!-- Headshot: drop your photo at assets/img/photo.jpg -->
+      <img
+        src="{{ '/assets/img/photo.jpg' | relative_url }}"
+        alt="Photo of {{ site.data.profile.name }}"
+        class="hero__photo"
+        onerror="this.style.display='none'"
+      >
 
-    <div class="hero__name-row">
-      <h1>{{ site.data.profile.name }}</h1>
-      {% for award in site.data.awards %}{% if award.highlight %}<span class="badge badge--o1a" title="{{ award.significance }}">{{ award.title | split: " " | slice: 0, 2 | join: " " }}</span>{% endif %}{% endfor %}
+      <div class="hero__body">
+        <p class="hero__meta">
+          {{ site.data.profile.location }}
+          &nbsp;·&nbsp;
+          <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
+        </p>
+
+        <div class="hero__name-row">
+          <h1>{{ site.data.profile.name }}</h1>
+          {% for award in site.data.awards %}{% if award.highlight %}<span class="badge badge--o1a" title="{{ award.significance }}">{{ award.title | split: " " | slice: 0, 2 | join: " " }}</span>{% endif %}{% endfor %}
+        </div>
+
+        <p class="hero__headline">{{ site.data.profile.headline }}</p>
+
+        <p class="hero__summary">
+          {{ site.data.profile.years_experience }} years building credit risk and ML models with direct P&amp;L accountability
+          in financial services. Aggregate documented impact:
+          $198M exposure reduction · $11M PBT benefit · $2.03B portfolio risk improvement.
+        </p>
+
+        <div class="hero__actions">
+          <a href="{{ '/publications/' | relative_url }}" class="btn btn--primary">Publications →</a>
+          <a href="{{ '/achievements/' | relative_url }}" class="btn btn--ghost">View Impact</a>
+        </div>
+      </div>
+
     </div>
-
-    <p class="hero__headline">{{ site.data.profile.headline }}</p>
-
-    <p class="hero__summary">
-      {{ site.data.profile.years_experience }} years building credit risk and ML models with direct P&amp;L accountability
-      in financial services. Aggregate documented impact:
-      $198M exposure reduction · $11M PBT benefit · $2.03B portfolio risk improvement.
-    </p>
-
-    <div class="hero__actions">
-      <a href="{{ '/publications/' | relative_url }}" class="btn btn--primary">Publications →</a>
-      <a href="{{ '/achievements/' | relative_url }}" class="btn btn--ghost">View Impact</a>
-    </div>
-
   </div>
 </section>
 
