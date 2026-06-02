@@ -1,0 +1,16 @@
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container nav__inner">
+    <a href="{{ '/' | relative_url }}" class="nav__brand">{{ site.data.profile.name }}</a>
+    <ul class="nav__links">
+      <li>
+        <a href="{{ '/achievements/' | relative_url }}"{% if page.url == '/achievements/' %} class="active" aria-current="page"{% endif %}>Impact</a>
+      </li>
+      <li>
+        <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} class="active" aria-current="page"{% endif %}>Publications</a>
+      </li>
+      <li>
+        <a href="{{ '/#contact' | relative_url }}">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>

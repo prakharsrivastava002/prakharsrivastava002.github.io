@@ -1,0 +1,68 @@
+title: Prakhar Srivastava
+description: "Senior Data Scientist specializing in credit risk analytics, ML, and causal inference."
+url: ""
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: pretty
+
+# Exclude all career-ops system files from the Jekyll build.
+# Only _layouts/, _includes/, _data/, assets/, index.md,
+# achievements.md, publications.md, and README.md are processed.
+exclude:
+  - AGENTS.md
+  - CHANGELOG.md
+  - CITATION.cff
+  - CLAUDE.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - CONTRIBUTORS.md
+  - DATA_CONTRACT.md
+  - GEMINI.md
+  - GOVERNANCE.md
+  - LEGAL_DISCLAIMER.md
+  - SECURITY.md
+  - SUPPORT.md
+  - TRADEMARK.md
+  - README.cn.md
+  - README.es.md
+  - README.ja.md
+  - README.ko-KR.md
+  - README.pt-BR.md
+  - README.ru.md
+  - README.ua.md
+  - README.zh-TW.md
+  - VERSION
+  - article-digest.md
+  - cv.md
+  - portals.yml
+  - flake.nix
+  - flake.lock
+  - "*.mjs"
+  - "*.cff"
+  - "*.tsv"
+  - batch/
+  - config/
+  - dashboard/
+  - data/
+  - docs/
+  - examples/
+  - interview-prep/
+  - jds/
+  - modes/
+  - node_modules/
+  - notes/
+  - output/
+  - reports/
+  - templates/
+  - writing-samples/
+  - .claude/
+  - .opencode/
+  - .gemini/
+  - .update-dismissed
+  - .update-lock
+  - .env

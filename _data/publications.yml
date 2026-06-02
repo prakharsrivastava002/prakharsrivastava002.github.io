@@ -1,0 +1,56 @@
+# All 4 publications verified via public sources.
+# Citation counts omitted: Google Scholar unreachable, no alternative source available.
+# See notes/source_audit.md for full verification log.
+
+- id: stock-market-transformer
+  title: "Enhancing Stock Market Predictions with Multi-Feature Time2Vec-Transformer Models"
+  venue: International Journal of Computer Trends and Technology (IJCTT)
+  volume: "73"
+  issue: "1"
+  pages: "1–18"
+  year: 2025
+  authors:
+    - Prakhar Srivastava
+  doi: "10.14445/22312803/IJCTT-V73I1P101"
+  url: "https://www.ijcttjournal.org/archives/ijctt-v73i1p101"
+  verification_status: verified_public
+
+- id: autotelic-rl
+  title: "Autotelic Reinforcement Learning: Exploring Intrinsic Motivations for Skill Acquisition in Open-Ended Environments"
+  resume_title: "Autotelic Reinforcement Learning: Intrinsic Motivations for Skill Acquisition"
+  venue: ArXiv preprint
+  year: 2025
+  submitted: "2025-02-06"
+  authors:
+    - Prakhar Srivastava
+    - Jasmeet Singh
+  arxiv: "2502.04418"
+  url: "https://arxiv.org/abs/2502.04418"
+  license: "CC BY-NC-ND 4.0"
+  verification_status: verified_public
+  note: "Title on resume is abbreviated; ArXiv canonical title used here"
+
+- id: implicit-subjects
+  title: "Detecting Implicit Subjects in Text"
+  venue: IEEE (IEEE Xplore)
+  year: null  # exact year requires IEEE authentication; listed as 2024 or 2025 in search results
+  authors: []  # full author list requires IEEE authentication
+  ieee_doc: "10961961"
+  url: "https://ieeexplore.ieee.org/document/10961961/"
+  verification_status: verified_public
+  note: "Existence and abstract confirmed publicly; full metadata (year, co-authors) requires IEEE login"
+
+- id: climate-sentiment
+  title: "A Computational Analysis of Climate Change Sentiment on Social Media"
+  venue: "Springer — Lecture Notes in Electrical Engineering, vol. 1297"
+  conference: "3rd International Conference on Signal and Data Processing (ICSDP 2023)"
+  year: 2025
+  published: "2025-05-03"
+  authors:
+    - "Thirumaran, G."
+    - "Mahendran, G."
+    - "Rawat, D."
+    - "Srivastava, P."
+  doi: "10.1007/978-981-97-9578-9_24"
+  url: "https://link.springer.com/chapter/10.1007/978-981-97-9578-9_24"
+  verification_status: verified_public

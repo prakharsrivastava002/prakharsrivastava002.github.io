@@ -1,0 +1,29 @@
+# All entries sourced from resume PDF.
+# verification_status: resume_only for all — government/institutional records not publicly queryable.
+
+- id: o1a-visa
+  title: "O-1A Extraordinary Ability Visa"
+  issuer: "U.S. Citizenship and Immigration Services (USCIS)"
+  status: approved
+  highlight: true
+  significance: "USCIS O-1A requires demonstrating extraordinary ability through sustained national or international acclaim in one's field"
+  verification_status: resume_only
+
+- id: excellence-award-discover
+  title: "Excellence Award for Proactive Contributions"
+  issuer: Discover Financial Services
+  period: "Q1 2024"
+  verification_status: resume_only
+
+- id: cornell-pm-cert
+  title: "Product Management Certification"
+  issuer: Cornell University
+  date: "2022-12"
+  verification_status: resume_only
+
+- id: beta-gamma-sigma
+  title: "Beta Gamma Sigma"
+  issuer: Beta Gamma Sigma Honor Society
+  note: "Top 5% of business programs globally"
+  date: "2022-03"
+  verification_status: resume_only

@@ -1,0 +1,98 @@
+name: Prakhar Srivastava
+headline: "Senior Data Scientist — Credit Risk, ML & Causal Inference"
+location: Chicago, IL
+email: prakharsrivastava002@gmail.com
+visa_status: "O-1A (approved)"
+years_experience: "6+"
+summary: >
+  Senior Data Scientist with 6+ years in financial services, specializing
+  in consumer credit risk analytics, predictive modeling, and portfolio
+  strategy across consumer lending and insurance. Aggregate documented
+  impact: $198M credit exposure reduction, $11M PBT benefit, $6.1M
+  model-driven recoveries, $2.03B portfolio risk improvement.
+
+current_role:
+  title: Data & Applied Scientist
+  company: Zurich North America
+  location: Schaumburg, IL
+  start: 2024-08
+
+experience:
+  - title: Data & Applied Scientist
+    company: Zurich North America
+    location: Schaumburg, IL
+    start: 2024-08
+    end: present
+  - title: Lead Data Science Analyst
+    company: Discover Financial Services
+    location: Chicago, IL
+    start: 2022-05
+    end: 2024-08
+  - title: Data Scientist (Marketing Analytics)
+    company: EXL Services
+    location: Noida, India
+    client: CVS & Aetna Health
+    start: 2019-05
+    end: 2020-12
+  - title: Data Science Analyst
+    company: DIMTS Ltd.
+    location: Delhi, India
+    start: 2018-05
+    end: 2019-05
+
+education:
+  - degree: "M.S. Business Analytics (Data Science)"
+    school: University of Illinois Chicago
+    location: Chicago, IL
+    start: 2021-01
+    end: 2022-05
+    honor: Beta Gamma Sigma
+  - degree: "B.Tech. Computer Science & Engineering"
+    school: Jaypee University (JIIT-62 Noida)
+    location: India
+    start: 2014-06
+    end: 2018-05
+
+skills:
+  credit_risk:
+    - Consumer credit risk analytics
+    - Risk scorecards
+    - GLM / logistic regression
+    - XGBoost
+    - Survival modeling
+    - P&L analytics
+    - Classification / segmentation / forecasting
+  ml:
+    - Feature engineering
+    - SHAP / explainability
+    - Model validation
+    - Forecasting
+    - Parameter tuning / dimension reduction
+  experimentation:
+    - A/B testing
+    - Causal inference
+    - Hypothesis testing
+    - Incrementality measurement
+    - Statistical significance / observational analysis
+  data_engineering:
+    - Python (pandas, numpy, sklearn)
+    - SQL
+    - PySpark / Hadoop / Hive
+    - Snowflake / Databricks
+    - Airflow / dbt
+    - Kafka / Teradata / BigQuery
+  genai_nlp:
+    - RAG pipelines
+    - LLM orchestration
+    - NER / text classification
+    - Transformer models
+    - Embeddings
+  cloud_viz:
+    - Azure ML
+    - AWS
+    - Tableau / Power BI
+    - Git / Jira / Jenkins
+
+links:
+  linkedin: null        # resume lists "LinkedIn" as text label; URL not in PDF
+  google_scholar: null  # unreachable at time of audit (login wall)

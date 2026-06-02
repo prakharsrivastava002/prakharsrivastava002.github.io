@@ -1,0 +1,72 @@
+# All metrics sourced verbatim from resume PDF.
+# All verification_status: resume_only — internal business figures, not publicly auditable.
+
+- id: credit-exposure-reduction
+  metric: "$198M credit exposure reduction"
+  context: "15% reduction in credit risk over 3 years via consumer credit risk strategy"
+  employer: Discover Financial Services
+  period: "2022–2024"
+  verification_status: resume_only
+
+- id: pbt-benefit
+  metric: "$11M 3-year PBT benefit"
+  context: "LTPRS-19 long-horizon attrition model; ~85% of consumer attrition outcomes predicted within a 24-month horizon; SHAP-based explainability surfaced key risk and revenue drivers"
+  employer: Discover Financial Services
+  period: "2022–2024"
+  verification_status: resume_only
+
+- id: incremental-recoveries
+  metric: "$6.1M incremental recoveries"
+  context: "Production ML scoring pipeline with Airflow/dbt; 5–10 pp capture rate improvement; part of $97.3M annual total"
+  employer: Zurich North America
+  period: "2024–present"
+  verification_status: resume_only
+
+- id: portfolio-risk-improvement
+  metric: "$2.03B portfolio risk improvement"
+  context: "Underwriting risk scoring models (GLM/ML) across enterprise exposure; outputs inform pricing and risk selection at portfolio scale"
+  employer: Zurich North America
+  period: "2024–present"
+  verification_status: resume_only
+
+- id: nlp-recovery-opportunity
+  metric: "$2M potential recovery opportunity identified"
+  context: "NLP-driven pipeline classifying 100K+ records to surface eligible cases for operational review"
+  employer: Zurich North America
+  period: "2024–present"
+  verification_status: resume_only
+
+- id: batch-pipeline-scale
+  metric: "195K+ records processed in <32 hours"
+  context: "Python/SOAP API batch pipeline accelerating compliance and analytics workflows"
+  employer: Zurich North America
+  period: "2024–present"
+  verification_status: resume_only
+
+- id: model-error-reduction
+  metric: "8% reduction in model errors"
+  context: "Controlled experiments and causal inference methods for credit risk and product strategies"
+  employer: Discover Financial Services
+  period: "2022–2024"
+  verification_status: resume_only
+
+- id: pipeline-processing-time
+  metric: "20% processing time reduction"
+  context: "PySpark batch pipelines via risk-based sampling and query optimization on large-scale consumer datasets"
+  employer: Discover Financial Services
+  period: "2022–2024"
+  verification_status: resume_only
+
+- id: fraud-detection-revenue
+  metric: "25% operational revenue improvement"
+  context: "Fraud detection model for transit operations"
+  employer: DIMTS Ltd.
+  period: "2018–2019"
+  verification_status: resume_only
+
+- id: nps-lift
+  metric: "3% NPS lift"
+  context: "Campaign analytics and hypothesis testing surfacing friction points and satisfaction signals; 12% analytics processing time reduction"
+  employer: "EXL Services (client: CVS & Aetna Health)"
+  period: "2019–2020"
+  verification_status: resume_only
